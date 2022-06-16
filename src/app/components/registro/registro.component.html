@@ -17,8 +17,15 @@
                     <div class="form-group">
                         <input type="password" name="password" placeholder="Contraseña" class="form-control">
                     </div>
-                    <br/>
                     <div class="form-group">
+                        <select class="select form-select" name="user" id="user">
+                            <option value="alumno">Alumno</option>
+                            <option value="instructor">Instructor</option>
+                            <option value="administrador">Administrador</option>
+                        </select>
+                    </div>
+                    <br/>
+                    <div class="form-group text-center">
                         <button class="btn btn-success" btn-block >Aceptar</button>
                         <button class="btn btn-danger">Cancelar</button>
                     </div>
