@@ -10,6 +10,11 @@ import { InstructorComponent } from './components/instructor/instructor.componen
 import { Instructor1Component } from './components/instructor1/instructor1.component';
 import { Instructor2Component } from './components/instructor2/instructor2.component';
 import { Instructor3Component } from './components/instructor3/instructor3.component';
+import { HomeComponent } from './components/home/home.component';
+import { NavegacionComponent } from './components/navegacion/navegacion.component';
+import { PiePaginaComponent } from './components/pie-pagina/pie-pagina.component';
+import { RegistroComponent } from './components/registro/registro.component';
+
 
 @NgModule({
   declarations: [
@@ -20,7 +25,11 @@ import { Instructor3Component } from './components/instructor3/instructor3.compo
     InstructorComponent,
     Instructor1Component,
     Instructor2Component,
-    Instructor3Component
+    Instructor3Component,
+    HomeComponent,
+    NavegacionComponent,
+    PiePaginaComponent,
+    RegistroComponent
   ],
   imports: [
     BrowserModule,
