@@ -6,17 +6,30 @@
                     <h3>Registro</h3>
                 </div>
             <div class="card-body">
-                <img src="/assets/pics/logotipoUTNG.png" alt="Logo">
+                <img src="/assets/pics/LogoUTNG.png" alt="Logo" width="40%" height="40%">
+                <br>
                 <form action="/login" method="POST">
+                    <br>
                     <div class="form-group">
                         <input type="text" name="fullname" placeholder="Nombre completo" class="form-control">
                     </div>
+                    <br>
+                    <div class="form-group">
+                        <input type="text" name="phone" placeholder="Correo Electrónico" class="form-control">
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <input type="text" name="phone" placeholder="Teléfono/Celular" class="form-control">
+                    </div>
+                    <br>
                     <div class="form-group">
                         <input type="text" name="username" placeholder="Usuario" class="form-control">
                     </div>
+                    <br>
                     <div class="form-group">
                         <input type="password" name="password" placeholder="Contraseña" class="form-control">
                     </div>
+                    <br>
                     <div class="form-group">
                         <select class="select form-select" name="user" id="user">
                             <option value="alumno">Alumno</option>
@@ -26,8 +39,9 @@
                     </div>
                     <br/>
                     <div class="form-group text-center">
-                        <button class="btn btn-success" btn-block >Aceptar</button>
-                        <button class="btn btn-danger">Cancelar</button>
+                        <button class="btn btn-success" btn-block > Aceptar </button>
+                        
+                        <button class="btn btn-danger"> Cancelar </button>
                     </div>
                 </form>
             </div> 
